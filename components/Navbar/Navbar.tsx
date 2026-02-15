@@ -8,7 +8,7 @@ import classes from './Navbar.module.css';
 
 const links = [
   { link: '/about', label: 'About Me' },
-  { link: '/research', label: 'Research' },
+  { link: 'https://rnamotifcontrastwebservice.vercel.app/', label: 'Research' },
   { link: '/pricing', label: 'CSUMB' },
   {
     label: 'Other Stuff',
@@ -63,7 +63,7 @@ export function Navbar() {
 
   return (
     <header className={classes.header}>
-      <Container size="md">
+      <Container fluid px="60">
         <div className={classes.inner}>
           <Link href="/" className={classes.brand}>
             Brandon Algarra

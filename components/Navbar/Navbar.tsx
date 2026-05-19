@@ -7,7 +7,7 @@ import { useDisclosure } from '@mantine/hooks';
 import classes from './Navbar.module.css';
 
 const links = [
-  // { link: '/about', label: 'About Me' },
+  { link: '/', label: 'Home' },
   { link: '/research', label: 'Research' },
   { link: '/cv', label: 'CV' },
   {

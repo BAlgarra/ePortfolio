@@ -8,7 +8,7 @@ import classes from './Navbar.module.css';
 
 const links = [
   { link: '/about', label: 'About Me' },
-  { link: 'https://rnamotifcontrastwebservice.vercel.app/', label: 'Research' },
+  { link: '/research', label: 'Research' },
   { link: '/pricing', label: 'CSUMB' },
   {
     label: 'Other Stuff',

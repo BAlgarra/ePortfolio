@@ -7,52 +7,14 @@ export default function Home() {
       <main className="flex min-h-screen w-full flex-col bg-white dark:bg-black sm:items-start">
         <HeroImageRight/>
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            Brandon Algarra
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Template for my ePortfolio. Check out the web service{" "}
-            <a
-              href="https://rnamotifcontrastwebservice.vercel.app/"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+          About Me
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          I am a senior at California State University, Monterey Bay (CSUMB) pursuing a degree in Computer Science, with a strong interest in interdisciplinary research, software engineering, and collaborative problem-solving. My academic journey has been shaped by both exploration and determination.
+Early in my undergraduate career, I navigated uncertainty while balancing interests and between biology and computer science. This experience ultimately led me to fully commit to computer science, while still maintaining my curiosity for biological applications. Rather than seeing this transition as a setback, I used it as motivation to strengthen my technical foundation through independent learning, hands-on projects, and participation in technical competitions.
+One of the most influential experiences in my development has been competitive programming through the International Collegiate Programming Contest (ICPC). Working in a team environment under time constraints taught me the importance of communication, collaboration, and diverse problem-solving approaches. These experiences reinforced my belief that innovation is strongest when individuals bring different perspectives together.
+Beyond academics, I try to actively engage in professional and research communities. Attending the Great Minds in STEM Conference exposed me to a broader network of researchers and professionals, highlighting the importance of representation, mentorship, and communication in science. These experiences continue to shape how I approach both learning and contributing to the field.
+
         </div>
       </main>
     </div>
